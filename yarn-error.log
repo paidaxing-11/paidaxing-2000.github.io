@@ -1,0 +1,46 @@
+Arguments: 
+  D:\node\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add vuepress-theme-reco
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Git\cmd;D:\Microsoft VS Code\bin;C:\Users\19042\AppData\Local\Yarn\bin;D:\node\;C:\Program Files (x86)\Yarn\bin\;C:\Users\19042\AppData\Roaming\npm;;D:\下载\微信web开发者工具\dll;5JAVA_HOME%\bin;C:\Program Files (x86)\Tencent\QQGameTempest\Hall.57734\;D:\下载\Microsoft VS Code\bin;D:\下载\WebStorm 2021.3.3\bin;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:151:13)
+      at Object.request (https.js:312:10)
+      at Request.module.exports.Request.start (C:\Program Files (x86)\Yarn\lib\cli.js:141447:32)
+      at Request.module.exports.Request.end (C:\Program Files (x86)\Yarn\lib\cli.js:142206:10)
+      at end (C:\Program Files (x86)\Yarn\lib\cli.js:141260:14)
+      at Immediate._onImmediate (C:\Program Files (x86)\Yarn\lib\cli.js:141274:7)
+      at processImmediate (internal/timers.js:461:21)
+
+npm manifest: 
+  {
+    "name": "studyNotes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs",
+      "deploy": "start deploy.sh"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
